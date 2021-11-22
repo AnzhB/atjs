@@ -1,6 +1,5 @@
 describe('task2', function () {
     it('task2.1', async function () {
-
         await browser.url('https://viktor-silakov.github.io/course-sut/');
         await browser.maximizeWindow();
         await $('#login').setValue('walker@jw.com');

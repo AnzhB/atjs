@@ -1,5 +1,4 @@
 describe('login plus menu items background color check', function () {
-   
     before ('login', async function () {
         await browser.url('https://viktor-silakov.github.io/course-sut/');
         await browser.maximizeWindow();
@@ -25,7 +24,7 @@ describe('login plus menu items background color check', function () {
             const color = await item.getCSSProperty('background-color');
             if (color.value == 'rgba(255,0,0,1)') {
                 throw new Error(`The menu Item ${text} has wrong color!`) 
-                }
+            }
         }   
     });
 });
