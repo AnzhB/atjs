@@ -1,7 +1,7 @@
 exports.config = {
     specs: [
-        './specs/task1.js',
-        './specs/task2.js'
+        './specs/task3.js'
+      //  './specs/task2.js'
       //  './specs/**/*.js'
     ],
     exclude: [
