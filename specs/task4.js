@@ -9,7 +9,7 @@ describe('check status', function () {
         await browser.pause(15000);  
     })
 
-    it('should wait until text has changed', async () => {
+    it('rigth status should be displayed after timeout', async () => {
         await $('#status').click();
         await browser.waitUntil(
             async () => (await $('#status').getText()) === 'Active',
