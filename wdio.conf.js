@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        './specs/task3.js'
+        './specs/task4.js'
       //  './specs/task2.js'
       //  './specs/**/*.js'
     ],
